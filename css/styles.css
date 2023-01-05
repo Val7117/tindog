@@ -17,9 +17,15 @@ h1 {
   line-height: 1.5;
 }
 
+h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
 h3 {
   font-weight: bold;
-  font-height: 1.5rem;
+  line-height: 1.5rem;
 }
 
 p {
@@ -78,4 +84,42 @@ p {
 
 .feature-image:hover {
   width: 6rem;
+  padding: 4px;
+}
+
+/* Testimonial section */
+
+#testimonials {
+  background-color: #ef8172;
+  color: #ffffff;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.testimonial-image {
+  width: 15%;
+  border-radius: 100%;
+  padding: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.em-name {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+/* Press section */
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
 }
